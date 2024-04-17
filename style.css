@@ -1,23 +1,21 @@
 body {
-    background: #f1c811;
-
+    background: linear-gradient(to right, rgb(255, 0, 191), rgb(89, 0, 255)); /* Градієнт від жовтого до червоного */
+}
+#header img {
+    max-width: 500px; /* Максимальна ширина зображення */
+    max-height: 500px; /* Максимальна висота зображення */
+    border: 5px solid rgb(255, 0, 234); /* Лаймова обвідка */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Тінь */
 }
 
-/* @keyframes gradientAnimation {
-    0% {
-      background-position: 0% 50%;
-    }
-    50% {
-      background-position: 100% 50%;
-    }
-    100% {
-      background-position: 0% 50%;
-    }
-  }
-  
-  .gradient {
-    background: linear-gradient(to right, yellow, red);
-    background-size: 200% 200%;
-    animation: gradientAnimation 5s ease infinite;
-  }
-   */
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+
+
